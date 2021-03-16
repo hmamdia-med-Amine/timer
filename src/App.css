@@ -1,0 +1,28 @@
+.App-header {
+  background-color: #282c34;
+
+  background: url(aviator_blue.png) no-repeat;
+  position: absolute;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.inputet {
+  padding-bottom: 50px;
+  padding-top: 300px;
+}
+.display {
+  padding-top: 60px;
+  padding-left: 150px;
+}
+.rdtOpen .rdtPicker {
+  display: block;
+  color: red;
+}
